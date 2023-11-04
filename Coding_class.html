@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Class</title>
+    <link rel="icon" href="coding.png">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        fieldset {
+            border: none;
+        }
+        header {
+            background-color: lightgrey;
+            color:black;
+            text-align: left;
+            padding: 20px;
+            animation-name: rag;
+            animation-duration: 10s;
+        }
+        @keyframes rag{
+            0%{background-color: lightgray;}
+            30%{background-color: aquamarine;}
+            60%{background-color: cornflowerblue;}
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .contact-info img {
+            vertical-align: middle;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .dropdown-content li {
+            padding: 12px 16px;
+            text-decoration: none;
+        }
+        
+        .dropdown-content a {
+            
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        
+        h3 {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+        }
+        table th {
+            padding: 0 15px;
+        }
+        table a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        input[type="button"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        
+        img#main-image {
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+       
+        legend {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        fieldset fieldset {
+            background-color: lightblue;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            padding: 20px;
+        }
+        h3 {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        pre {
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <div class="contact-info">
+                <img src="phone.png" alt="" height="20px" width="20px"> 9731937619 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="email.jpg" alt="" height="20px" width="20px"> hgraghuveer@gmail.com 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=6KaTlTpTpI4&pp=ygULdGFwIGFjYWRlbXk%3D" target="_blank">
+                    <img src="you_tube.png" alt="" height="20px" width="20px"></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/" target="_blank"><img src="insta.jpg" alt="" height="20px" width="20px"></a>
+            </div>
+        </header>
+
+    <h3>
+        <table>
+            <tr>
+                <th>
+                    <a href="index.html" target="_self"><img src="Tap_Academy.jpg" alt=""></a>
+                </th>
+                <th></th>
+                <th><a href="index.html">Home</a></th>
+                <th class="dropdown">
+                    <a href="">Course</a>
+                    <ul class="dropdown-content">
+                      <li><a href="Complete_Full_stack_page.html" target="_self">Complete Full Stack Web Development</a></li>
+                      <li><a href="Coding_class.html" target="_self">Coding Classes</a></li>
+                      <li><a href="Aptitude.html" target="_self">Aptitude</a></li>
+                    </ul>
+                  </th>
+                <th><a href="Student_Reviews.html">Student Review</a></th>
+                <th><a href="Blogs.html">Blogs</a></th>
+                <th><a href="Placements.html">Placements</a></th>
+                <th><a href="contact.html" target="_self">Contact Us</a></th>
+                <th><a href="index.html"><input type="button" value="Try for Free"></a></th>
+            </tr>
+        </table>
+    </h3>
+    <img id="main-image" src="coding_main.webp" alt="" height="400px" width="400px">
+
+    <h1>
+        Syllabus
+    </h1>
+
+    <fieldset>
+        <legend><h2>Coding Section</h2></legend>
+        <fieldset>
+            <h3>Loops</h3>
+            <pre>
+                Loops in Java are control structures that allow you to execute a block of code repeatedly as long as a specified condition is met. Java supports several types of loops, each serving a different purpose.
+            </pre>
+        </fieldset>
+        <fieldset>
+            <h3>Array</h3>
+            <pre>
+                Array programming in Java refers to the practice of working with arrays, which are data structures that store a fixed-size sequence of elements of the same data type. Java provides extensive support for arrays, making it a fundamental aspect of the language.
+            </pre>
+        </fieldset>
+        <fieldset>
+            <h3>String</h3>
+            <pre>
+                String manipulation is a common task in Java programming, and there are many built-in methods and techniques for working with strings.
+            </pre>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
